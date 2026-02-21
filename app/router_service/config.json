@@ -1,0 +1,21 @@
+{
+  "services": [
+    {
+      "name": "spoty",
+      "description": "Управление музыкой через Spotify API",
+      "keywords": ["включи", "музыка", "песня", "плейлист", "track", "song", "spotify", "поставь"]
+    },
+    {
+      "name": "worker",
+      "description": "Работа с файловой системой и действия как пользователь",
+      "keywords": ["создай файл", "удали файл", "папка", "открой программу", "скачай"]
+    },
+    {
+      "name": "eventmanager",
+      "description": "Создание и управление запланированными событиями",
+      "keywords": ["напомни", "запланируй", "событие", "через час", "завтра"]
+    }
+  ],
+  "fallback_service": "assistant",
+  "allowed_outputs": ["spoty", "worker", "eventmanager", "assistant"]
+}

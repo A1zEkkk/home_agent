@@ -1,0 +1,17 @@
+2026-02-21 14:19:50,058 | INFO | LanguageModelClient | Router client initialized | model=qwen2.5:14b
+2026-02-21 14:19:54,202 | INFO | router_service | [680267a9] Incoming request | path=/process | size=69
+2026-02-21 14:19:54,413 | INFO | httpx | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-21 14:19:54,413 | INFO | LanguageModelClient | Routing result | service=spoty | time=0.209s
+2026-02-21 14:19:54,414 | INFO | router_service | [680267a9] Request completed | time=211.83ms
+2026-02-21 14:20:13,838 | INFO | router_service | [a885692f] Incoming request | path=/process | size=69
+2026-02-21 14:20:14,037 | INFO | httpx | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-21 14:20:14,038 | INFO | LanguageModelClient | Routing result | service=spoty | time=0.199s
+2026-02-21 14:20:14,039 | INFO | router_service | [a885692f] Request completed | time=201.2ms
+2026-02-21 14:20:14,718 | INFO | router_service | [5f7f1dfa] Incoming request | path=/process | size=69
+2026-02-21 14:20:14,917 | INFO | httpx | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-21 14:20:14,917 | INFO | LanguageModelClient | Routing result | service=spoty | time=0.199s
+2026-02-21 14:20:14,918 | INFO | router_service | [5f7f1dfa] Request completed | time=199.72ms
+2026-02-21 14:20:15,927 | INFO | router_service | [a17cae45] Incoming request | path=/process | size=69
+2026-02-21 14:20:16,122 | INFO | httpx | HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-21 14:20:16,122 | INFO | LanguageModelClient | Routing result | service=spoty | time=0.194s
+2026-02-21 14:20:16,122 | INFO | router_service | [a17cae45] Request completed | time=195.53ms
