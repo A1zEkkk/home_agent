@@ -14,7 +14,7 @@ lock = asyncio.Lock()
 logger = logging.getLogger("router_service")
 
 def get_client():
-    from app.router_service.main import client
+    from router_service.main import client
     return client
 
 @router.post("/process")

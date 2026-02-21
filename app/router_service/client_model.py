@@ -17,7 +17,7 @@ class LanguageModelClient:
     def __init__(self, model_name: str, router_prompt: str):
         self.model = model_name
         self.router_prompt = router_prompt
-        self.client = ollama.Client()
+        self.client = ollama.Client(host="http://host.docker.internal:11434") #Удалить, когда ollama Будет запускаться из контейнера
 
         logger.info(f"Router client initialized | model={self.model}")
         #В будущем добавить путь до модели, когда будем раскидывать по контейнерам

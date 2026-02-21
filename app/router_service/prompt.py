@@ -1,4 +1,5 @@
 import json
+import os
 
 def router_prompt() -> str:
     """
@@ -7,7 +8,11 @@ def router_prompt() -> str:
 
     :return: str
     """
-    with open("app/router_service/config.json", "r", encoding="utf-8") as f:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+    config_path = os.path.join(BASE_DIR, "config.json")
+
+    with open(config_path, "r", encoding="utf-8") as f:
         config = json.load(f)
 
     services = config["services"] #Берёт из конфига список всех сервисов, которые может выбрать роутер
